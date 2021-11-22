@@ -5,12 +5,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --watch"
   },
   "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.1.1",
+    "@mui/material": "^5.1.1",
+    "@mui/styles": "^5.1.1",
+    "@mui/x-data-grid": "^5.0.1",
+    "@mui/x-data-grid-generator": "^5.0.1",
+    "@testing-library/dom": "^8.11.1",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.24.0",
+    "jest": "^27.3.1",
     "next": "12.0.4",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-tsparticles": "^1.37.4"
   },
   "devDependencies": {
     "eslint": "7",
